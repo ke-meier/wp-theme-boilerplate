@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "84210c5527411c03d4ef1ad4365efd0a",
+    "packages": [
+        {
+            "name": "ke-meier/wp-app-kit",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ke-meier/wp-app-kit.git",
+                "reference": "77956e016009cff73e1f300f76f5a0cda365d308"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ke-meier/wp-app-kit/zipball/77956e016009cff73e1f300f76f5a0cda365d308",
+                "reference": "77956e016009cff73e1f300f76f5a0cda365d308",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "WPAppKit": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Meier",
+                    "email": "kevin@netzdenke.de"
+                }
+            ],
+            "time": "2019-04-26T09:54:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
