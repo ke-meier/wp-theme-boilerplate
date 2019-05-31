@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ke-meier/wp-app-kit": "^1.0"
+    }
+}

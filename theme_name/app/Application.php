@@ -13,9 +13,14 @@ class Application
 
     public function __construct()
     {
+
+        require_once __DIR__ . '/../vendor/autoload.php';
         require_once 'Registry.php';
+
         Registry::setConfig(require_once('config.php'));
-        Registry::setVersion('1.1.1');
+        Registry::setVersion('0.1');
+        Registry::setBaseUrl(get_stylesheet_directory_uri());
+        Registry::setBasePath(get_stylesheet_directory());
 
         // autoload files
         spl_autoload_register(function ($cls) {

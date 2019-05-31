@@ -14,6 +14,16 @@ final class Registry
      */
     private static $config = [];
 
+    /**
+     * @var string
+     */
+    private static $baseUrl = '';
+
+    /**
+     * @var string
+     */
+    private static $basePath = '';
+
     private function __construct()
     {
         // private constructor
@@ -51,8 +61,40 @@ final class Registry
     /**
      * @param string $version
      */
-    public static function setVersion($version)
+    public static function setVersion(string $version)
     {
         self::$version = $version;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getBaseUrl(): string
+    {
+        return self::$baseUrl;
+    }
+
+    /**
+     * @param string $baseUrl
+     */
+    public static function setBaseUrl(string $baseUrl)
+    {
+        self::$baseUrl = $baseUrl;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getBasePath(): string
+    {
+        return self::$basePath;
+    }
+
+    /**
+     * @param string $basePath
+     */
+    public static function setBasePath(string $basePath)
+    {
+        self::$basePath = $basePath;
     }
 }

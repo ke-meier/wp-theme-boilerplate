@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "84210c5527411c03d4ef1ad4365efd0a",
+    "content-hash": "87d4dc0ba174178d1bd58bb23cf227ec",
     "packages": [
         {
             "name": "ke-meier/wp-app-kit",
-            "version": "0.0.1",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ke-meier/wp-app-kit.git",
